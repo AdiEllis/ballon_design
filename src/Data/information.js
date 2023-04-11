@@ -2,6 +2,7 @@ import {v4 as uuidv4} from "uuid";
 import image1 from '../Assets/Images/birth-balloons.jpg'
 import image2 from '../Assets/Images/image2.jpg'
 import image3 from '../Assets/Images/image3.jpg'
+import image4 from '../Assets/Images/image4.jpg'
 import CarouselItem from "../Components/CarouselItem";
 import React from "react";
 
@@ -17,8 +18,12 @@ const information = {
         },
         {
             image: image2
-        }, {
-            image: image3,
+        },
+        {
+            image: image3
+        },
+        {
+        image: image4
         }]
 }
 export default information;

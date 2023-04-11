@@ -13,13 +13,13 @@ export default function TextHeader() {
                 display: 'flex',
                 flexDirection: 'column',
                 minHeight: '20vh',
-                bgcolor: '#f4f3f3'
+                bgcolor: '#f4f3f3',
             }}
         >
             <CssBaseline />
             <Container component="main" sx={{ mt: 8, mb: 2 }} maxWidth="sm">
                 <Typography variant="h3" component="h1" gutterBottom>
-                    עיצובי בלונים
+                    סידורי בלונים
                 </Typography>
                 <Typography variant="h5" component="h2" gutterBottom>
                     {'וקירות מעוצבים לבריתות וימי הולדת '}

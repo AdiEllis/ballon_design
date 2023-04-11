@@ -13,7 +13,7 @@ code {
 }
 .portfolio {
   background: #f0f0f0;
-  padding: 100px 0 200px 0;
+  padding: 50px 0 20px 0;
 }
 
 .portfolio .section-title {
@@ -70,4 +70,14 @@ code {
   text-align:center;
   font-size: 30px;
   margin-bottom:10rem;
+}
+
+.image-slider{
+  width: 100% !important;
+}
+
+.full-width-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }

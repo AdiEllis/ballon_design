@@ -17,7 +17,7 @@ const CustomizedCarousel = (props)  => {
     }, [props]);
     return (
         <div
-            style={{ height: '800px' }}
+            style={{ height: '600px' }}
         >
             <Carousel
                 slides={cards}

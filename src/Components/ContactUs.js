@@ -11,7 +11,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 const instagramUrl = `https://www.instagram.com/${"adiellis111"}`;
 
 const handleLinkClick = () => {
-    window.open(`tel:${972528085632}`);
+    window.open(`tel:${0o52-8085632}`);
 };
 
 export default function ContactUs() {
@@ -22,14 +22,19 @@ export default function ContactUs() {
                 py: 3,
                 px: 2,
                 mt: 'auto',
-                bgcolor: '#e29997'
+                bgcolor: '#e29997',
+                alignItems: "center"
             }}
         >
-            <Container maxWidth="sm">
+            <Container maxWidth="xs">
                 <Typography variant="h5">
                     לפרטים נוספים פנו אלינו
                 </Typography> <br/>
-                <Grid container spacing={3}>
+                <Grid
+                    container spacing={3}
+                    alignItems="center"
+                    justifyContent="center"
+                >
                     <Grid item sm={4}>
                         <IconButton component={Link} to={`https://wa.me/${"972528085632"}`} target="_blank">
                             <WhatsApp />
